@@ -1,5 +1,5 @@
-# Sparse-Self-interference-Cancellation-in-Full-duplex-Comminications
-Iiterative orthogonal least square (IOLS) and orthogonal matching pursuit (OMP) algorithms for digital self-interference(SI) cancellation in Full-duplex comminications. 
+# Sparse-Self-interference-Cancellation-in-Full-duplex-Communications
+Iiterative orthogonal least square (IOLS) and orthogonal matching pursuit (OMP) algorithms for digital self-interference(SI) cancellation in Full-duplex communications. 
 Please see the paper: "A Memory Polynomial-based Iterative Orthogonal Least Square Algorithm for ReconstructingSelf-Interferences in Full-Duplex Communications."
 
 This is sparse  algorithms for MATLAB. 
@@ -7,11 +7,11 @@ This is sparse  algorithms for MATLAB.
 
 ### testing instructions:
 
-1. test_OMP_Nonlinear: testing the reconstrucated SI channel coefficents (Amplitudes) in the time_domain.
+1. test_OMP_Nonlinear: testing the reconstrucated SI channel coefficients (Amplitudes) in the time_domain.
 
 2. test_OMPSI_Th :  testing the numbers of the selected atoms and SI perfomances for different epsilons with known noise variance.
 
-3. test_OMPSI_Kapa :  testing the numbers of the selected atoms and SI perfomances for different yeta with unknown noise variance.
+3. test_OMPSI_Kapa :  testing the numbers of the selected atoms and SI perfomances for different yita with unknown noise variance.
 
 4. test_plotPSD: testing the power spectrums for differencet methods (Note that the datas of NN-based  methods are referenced from 
 
